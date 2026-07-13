@@ -1,0 +1,14 @@
+# Terraform
+.Terraform/
+*.tfstate
+*.tfstate.*
+.Terraform.lock.hcl
+
+#variables
+Terraform.tfvars
+
+# crash logs
+crash.log
+
+#ide
+.vscode/
