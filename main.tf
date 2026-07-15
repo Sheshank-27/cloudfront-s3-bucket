@@ -10,6 +10,7 @@ module "cloudfront" {
 
   bucket_domain_name = module.s3.bucket_domain_name
   bucket_arn         = module.s3.bucket_arn
+  origin_path        = var.origin_path
 }
 
 data "aws_caller_identity" "current" {}
